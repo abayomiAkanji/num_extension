@@ -1,0 +1,18 @@
+name: num_extension
+description: A set of mathematical calculations on `num` and `List<num>` objects - using Dart Extension Methods.
+version: 0.0.1
+author: Abayomi Akanji <abayomidami@gmail.com>
+homepage: https://github.com/abayomiAkanji/num_extension
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
