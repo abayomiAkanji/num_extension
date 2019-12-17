@@ -31,7 +31,7 @@ extension NumExtension on num {
   /// Returns this `num` multiple by [other]
   num times(num other) => this * other;
 
-  num asFixed(int fractionDigits) => num.parse(this.toStringAsFixed(fractionDigits));
+  num asFixed(int fractionDigits) => num.parse(toStringAsFixed(fractionDigits));
 
 }
 
@@ -48,12 +48,12 @@ extension ListNumExtension on List<num> {
   num get min => _getMin(this);
 
   /// Returns the mean value of the sum of this list
-  num get average => this.sum / this.length;
+  num get average => sum / length;
 
 
   /// Returns the lowest number among the elements in [values]
   num _getMin(List<num> values) {
-    var minExpectedLength = 2;
+    final minExpectedLength = 2;
     if (values.length < minExpectedLength) {
       throw Exception('Collection must have a minumum of 2 elements');
     }
@@ -71,7 +71,7 @@ extension ListNumExtension on List<num> {
 
   /// Returns the highest number among the elements in [values]
   num _getMax(List<num> values) {
-    var minExpectedLength = 2;
+    final minExpectedLength = 2;
     if (values.length < minExpectedLength) {
       throw Exception('Collection must have a minumum of 2 elements');
     }
