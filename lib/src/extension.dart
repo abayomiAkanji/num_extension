@@ -28,8 +28,6 @@ extension NumExtension on num {
   /// Returns this `num` multiple by [other]
   num times(num other) => this * other;
 
-  num asFixed(int fractionDigits) => num.parse(toStringAsFixed(fractionDigits));
-
 }
 
 
