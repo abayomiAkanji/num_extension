@@ -1,7 +1,6 @@
 name: num_extension
 description: A set of mathematical calculations on `num` and `List<num>` objects - using Dart Extension Methods.
 version: 0.0.1
-author: Abayomi Akanji <abayomidami@gmail.com>
 homepage: https://github.com/abayomiAkanji/num_extension
 
 environment:
