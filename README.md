@@ -1,6 +1,6 @@
 # num_extension
 
-A set of mathematical calculations on `num` and `List&lt;num&gt;` objects - using Dart Extension Methods.
+A set of mathematical calculations on `num` and `List<num>` objects - using Dart Extension Methods.
 
 ## Getting Started
 
