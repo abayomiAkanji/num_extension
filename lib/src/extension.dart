@@ -1,6 +1,3 @@
-library num_extension;
-
-
 extension NumExtension on num {
 
   /// Returns this `num` plus [other].

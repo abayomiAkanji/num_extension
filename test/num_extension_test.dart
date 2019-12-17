@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:num_extension/src/num_extension.dart';
+import 'package:num_extension/src/extension.dart';
 
 void main() {
 
