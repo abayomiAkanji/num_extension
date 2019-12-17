@@ -30,7 +30,7 @@ You can play out all essential number juggling tasks on `num`
   var result = 1.plus(3.1).div(7).times(2);
 ```
 
-You can as well add/subtract the sum of elements in `List<num>` to the `num`
+You can as well add/subtract the sum of elements in `List<num>` to/from the `num`
 
 ```dart
   var result = 3.plusList([2, 1, -4, 8]);
