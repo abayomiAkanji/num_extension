@@ -35,18 +35,18 @@ You can as well add/subtract the sum of elements in `List<num>` to/from the `num
 ```dart
   var result = 3.plusList([2, 1, -4, 8]);
   var result = 27.minusList([9, -2, 9, 4]);
-  var result = 4.div(2).times(3).minus(4.5).plus(3).plusList([2,8,4,5]);
+  var result = 4.div(2).times(3).minus(4.5).plus(3).plusList([2, 8, 4, 5]);
 ```
 
 
 You can also do the same on `List<num>`
 
 ```dart
-  var result = [2,3,1,-12.1].sum;
-  var result = [2,3,1,-12].min;
-  var result = [2,3,1,-12].max;
-  var result = [2,3,1,-12].average;
-  var result = [2,3,1,-12].sum.plusList([2,4]).minus(4).div(2);
+  var result = [2, 3, 1, -12.1].sum;
+  var result = [2, 3, 1, -12].min;
+  var result = [2, 3, 1, -12].max;
+  var result = [2, 3, 1, -12].average;
+  var result = [2, 3, 1, -12].sum.plusList([2,4]).minus(4).div(2);
 ```
 
 ## License
