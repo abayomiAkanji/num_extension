@@ -8,7 +8,7 @@ A set of mathematical calculations on `num` and `List<num>` objects - using Dart
 ## Installation
 ```yaml
 dependencies:
-  time: "^0.0.1"
+  num_extension: ^1.0.0
 ```
 
 
